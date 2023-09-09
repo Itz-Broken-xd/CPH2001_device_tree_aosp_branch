@@ -1,4 +1,4 @@
-# Android device tree for OPPO CPH2001 (CPH2001)
+# Android device tree for OPPO CPH2001 (Oppo F15)
 
 ```
 #
