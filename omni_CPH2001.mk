@@ -23,6 +23,10 @@ PRODUCT_MANUFACTURER := oppo
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
+# Forcefully add mtp support (adb is already there)
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    persist.sys.usb.config=mtp
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="CPH2001-user 11 RP1A.200720.011 1670067820572 release-keys"
 
