@@ -1,2 +1,10 @@
-# CPH2001_device_tree
-CPH2001 (Oppo F15) devic tree genrated using twrpdtgen. Note : Don't use the device tree in SebaUbuntu's repo because it has wrong partition size in "BoardConfig.mk" file
+# Android device tree for OPPO CPH2001 (CPH2001)
+
+```
+#
+# Copyright (C) 2023 The Android Open Source Project
+# Copyright (C) 2023 SebaUbuntu's TWRP device tree generator
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+```
