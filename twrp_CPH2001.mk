@@ -10,9 +10,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 
-# Inherit some common Omni stuff.
-# $(call inherit-product, vendor/omni/config/common.mk)
-
 # Inherit from CPH2001 device
 $(call inherit-product, device/oppo/CPH2001/device.mk)
 
@@ -25,6 +22,8 @@ PRODUCT_MANUFACTURER := oppo
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 PRODUCT_SHIPPING_API_LEVEL := 28
+
+DEVICE_PATH := device/$(PRODUCT_BRAND)/$(PRODUCT_DEVICE)
 
 # Forcefully add mtp support (adb is already there)
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
