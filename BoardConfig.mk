@@ -98,3 +98,8 @@ TARGET_SCREEN_WIDTH := 1080
 # PBRP FLAGS
 PB_DISABLE_DEFAULT_DM_VERITY := true
 PB_TORCH_PATH := /sys/class/leds/flashlight
+
+# MTK Hardware 
+BOARD_HAS_MTK_HARDWARE := true 
+BOARD_USES_MTK_HARDWARE := true 
+MTK_HARDWARE := true
