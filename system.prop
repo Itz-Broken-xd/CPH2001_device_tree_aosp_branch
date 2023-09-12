@@ -1,0 +1,6 @@
+ro.boot.avb_version=1.1
+ro.product.brand=OPPO
+ro.product.name=CPH2001
+ro.product.device=CPH2001
+ro.build.product=CPH2001
+ro.treble.enabled=true
