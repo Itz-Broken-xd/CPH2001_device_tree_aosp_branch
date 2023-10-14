@@ -1,5 +1,5 @@
-/recovery        emmc     /dev/block/by-name/recovery                           flags=display="RECOVERY";backup=1
-/boot            emmc     /dev/block/by-name/boot                               flags=display="BOOT";backup=1
+/recovery        emmc     /dev/block/by-name/recovery                           flags=display="Recovery";backup=1
+/boot            emmc     /dev/block/by-name/boot                               flags=display="Boot";backup=1
 
 /system          ext4     /dev/block/by-name/system                             flags=wipeingui 
 /cache           ext4     /dev/block/by-name/cache
@@ -10,5 +10,5 @@
 
 #Removable storages
 
-/external_sd     auto     /dev/block/mmcblk0p1   /dev/block/mmcblk0             flags=display="External SDcard";storage;removable;backup=0;wipeingui
-/usb_otg         auto     /dev/block/sdd1        /dev/block/sda                 flags=display="Usb-Otg_sdd1";storage;removable;backup=0;wipeingui
+/external_sd     auto     /dev/block/mmcblk0p1   /dev/block/mmcblk0             flags=display="SD Card";storage;removable;backup=1;wipeingui
+/usb_otg         auto     /dev/block/sdd1        /dev/block/sda                 flags=display="Usb-Otg";storage;removable;backup=1;wipeingui
