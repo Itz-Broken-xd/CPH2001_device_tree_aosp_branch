@@ -74,7 +74,6 @@ TARGET_BOARD_PLATFORM := default
 
 # Recovery
 BOARD_INCLUDE_RECOVERY_DTBO := true
-TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
 # Hack: prevent anti rollback
