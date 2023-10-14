@@ -8,7 +8,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 ```
-
+<hr>
 
 ### How to build
 Use the minimal manifest twrp aosp 11 [here](https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp/tree/twrp-11) \
